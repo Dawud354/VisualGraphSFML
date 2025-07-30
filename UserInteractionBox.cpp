@@ -100,8 +100,10 @@ void UserInteractionBox::handleButtonClick(sf::RenderWindow &window) {
         currentMessage = UserInteractionMessages::EDIT_CIRCLE_NAME;
         instructionsBox.setText("Edit the circle name and press Enter \nto save the new name"); // Update instructions box text
         return; // Exit early if the text box is clicked
-    } else {
+    } else if (currentMessage == UserInteractionMessages::EDIT_CIRCLE_NAME) {
         currentMessage = UserInteractionMessages::DRAG_CIRCLE; // Reset to drag mode if text box is not clicked
+    }
+    else {
         window.setKeyRepeatEnabled(true); // Enable key repeat when text box is not active
     }
     for (auto &pair: buttons) {

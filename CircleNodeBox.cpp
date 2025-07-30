@@ -113,6 +113,7 @@ CircleNodeBoxMessages CircleNodeBox::getCurrentMessage() const {
 
 // Implement connection logic here
 void CircleNodeBox::connectCircles(const sf::RenderWindow& window) {
+    std::cout << "Connecting circles..." << std::endl;
     currentMessage = CircleNodeBoxMessages::NOTHING_DONE; // Reset message to NONE
     for (const std::string& currentCircle : circleGraph.getCircles()) {
         if (checkIfMouseInsideCircle(window, currentCircle)) {

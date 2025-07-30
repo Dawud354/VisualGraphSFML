@@ -86,6 +86,7 @@ void CircleGraph::removeCircle(const std::string &label) {
 void CircleGraph::addEdge(const std::string &label1, const std::string &label2) {
     graph.addEdge(label1, label2); // Add an edge between two nodes in the graph
     graph.addEdge(label2, label1); // Ensure the edge is bidirectional
+    std::cout <<"\n" <<graph.toString() << std::endl; // Print the graph structure after adding the edge
 }
 
 void CircleGraph::removeEdge(const std::string &label1, const std::string &label2) {
