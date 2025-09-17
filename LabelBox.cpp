@@ -31,7 +31,37 @@ LabelBox::LabelBox() {
 }
 
 void LabelBox::setText(const std::string &textString) {
-    text.setString(textString);
+    std::istringstream iss(textString);
+    std::vector<std::string> words;
+    std::string word;
+
+    while (iss >> word) {
+        words.push_back(word);
+    }
+
+    std::string currentLine;
+    std::string finalText;
+
+    for (const auto& currentWord : words) {
+        // Tentative line if we add this word
+        std::string testLine = currentLine.empty() ? currentWord : currentLine + " " + currentWord;
+        text.setString(testLine);
+
+        if (text.getLocalBounds().width > background.getLocalBounds().width) {
+            // Too wide -> push current line to final text, start new line
+            if (!finalText.empty()) finalText += "\n";
+            finalText += currentLine;
+            currentLine = currentWord;
+        } else {
+            currentLine = testLine;
+        }
+    }
+
+    // Add the last line
+    if (!finalText.empty()) finalText += "\n";
+    finalText += currentLine;
+
+    text.setString(finalText);
 }
 void LabelBox::setPosition(float x, float y) {
     background.setPosition(x, y);

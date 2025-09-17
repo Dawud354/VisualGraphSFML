@@ -5,6 +5,9 @@
 #ifndef LABELBOX_H
 #define LABELBOX_H
 #include "SFML/Graphics.hpp"
+#include <sstream>
+#include <vector>
+#include <string>
 
 
 class LabelBox {
