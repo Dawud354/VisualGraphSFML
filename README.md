@@ -9,7 +9,8 @@ This is a C++ program built using **SFML** that visually represents graphs.
 - **Visual representation** of the graph structure.
 - Basic layout for graph visualization
 
-## Getting Started
+## What my Program looks like
+![Diagram](assets/images/VisualGraphExample.png)
 
 ## Installation
 
