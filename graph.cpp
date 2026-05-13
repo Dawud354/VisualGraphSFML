@@ -2,7 +2,7 @@
 // Created by dawud on 07/01/2025.
 //
 
-#include "Graph.h"
+#include "graph.h"
 
 #include <iostream>
 #include <stdexcept>

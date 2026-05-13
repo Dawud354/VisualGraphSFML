@@ -1,15 +1,15 @@
 #include "TextBox.h"
-#include <CircleNode.h>
+#include <circle_node.h>
 #include <cmath>
 #include <iostream>
 #include <vector>
 #include <SFML/Graphics.hpp>
-#include <CircleNodeBox.h>
-#include "MainFrame.h"
-#include "Graph.h"
+#include <circle_node_box.h>
+#include "main_frame.h"
+#include "graph.h"
 
-#include "Line.h"
-#include "Button.h"
+#include "line.h"
+#include "button.h"
 #include "UserInteractionBox.h"
 
 

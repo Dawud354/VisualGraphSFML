@@ -2,7 +2,7 @@
 // Created by dawud on 17/07/2025.
 //
 
-#include "CircleNode.h"
+#include "circle_node.h"
 
 CircleNode::CircleNode() {
     circle.setRadius(50.0f); // Default radius

@@ -2,8 +2,8 @@
 // Created by dawud on 18/07/2025.
 //
 
-#include "Button.h"
-#include "FontManager.h"
+#include "button.h"
+#include "font_manager.h"
 
 #include <iostream>
 

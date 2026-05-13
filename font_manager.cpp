@@ -2,7 +2,7 @@
 // Created by dawud on 23/07/2025.
 //
 
-#include "FontManager.h"
+#include "font_manager.h"
 #include <stdexcept>
 
 sf::Font& getSharedFont() {

@@ -5,16 +5,16 @@
 #ifndef MAINFRAME_H
 #define MAINFRAME_H
 
-#include <CircleNode.h>
+#include <circle_node.h>
 #include <cmath>
 #include <iostream>
 #include <vector>
 #include <SFML/Graphics.hpp>
-#include <CircleNodeBox.h>
+#include <circle_node_box.h>
 
-#include "Button.h"
+#include "button.h"
 #include "UserInteractionBox.h"
-#include "CircleNodeBoxMessages.h"
+#include "circle_node_box_messages.h"
 
 class MainFrame {
 private:

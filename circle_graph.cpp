@@ -2,7 +2,7 @@
 // Created by dawud on 24/07/2025.
 //
 
-#include "CircleGraph.h"
+#include "circle_graph.h"
 #include "line.h"
 #include <iostream>
 #include <ranges>

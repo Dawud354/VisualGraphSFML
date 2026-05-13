@@ -4,11 +4,11 @@
 
 #ifndef CIRCLEGRAPH_H
 #define CIRCLEGRAPH_H
-#include "Graph.h"
+#include "graph.h"
 #include <vector>
 #include <unordered_map>
 #include "SFML/Graphics.hpp"
-#include "CircleNode.h"
+#include "circle_node.h"
 
 
 class CircleGraph {

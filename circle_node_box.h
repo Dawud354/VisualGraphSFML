@@ -5,10 +5,10 @@
 
 #ifndef CIRCLENODEBOX_H
 #define CIRCLENODEBOX_H
-#include "CircleGraph.h"
+#include "circle_graph.h"
 #include "SFML/Graphics.hpp"
-#include "CircleNode.h"
-#include "CircleNodeBoxMessages.h"
+#include "circle_node.h"
+#include "circle_node_box_messages.h"
 
 
 class CircleNodeBox {

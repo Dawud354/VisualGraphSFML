@@ -3,7 +3,7 @@
 //
 
 #include "TextBox.h"
-#include "FontManager.h"
+#include "font_manager.h"
 
 
 TextBox::TextBox(float x, float y, float width, float height, const sf::Color& color){

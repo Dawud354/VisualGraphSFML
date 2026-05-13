@@ -6,7 +6,7 @@
 
 #include <iostream>
 
-#include "FontManager.h"
+#include "font_manager.h"
 
 UserInteractionBox::UserInteractionBox(float x, float y, float width, float height, const sf::Color &boxColor){
     // Set up the background

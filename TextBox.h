@@ -6,7 +6,7 @@
 #define TEXTBOX_H
 
 #include "SFML/Graphics.hpp"
-#include "LabelBox.h"
+#include "label_box.h"
 
 class TextBox {
 private:

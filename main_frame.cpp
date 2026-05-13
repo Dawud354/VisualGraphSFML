@@ -2,7 +2,7 @@
 // Created by dawud on 26/07/2025.
 //
 
-#include "MainFrame.h"
+#include "main_frame.h"
 
 MainFrame::MainFrame(): window(sf::VideoMode(1280, 720), "SFML Window", sf::Style::Titlebar | sf::Style::Close),circleBox(500, 10, 760, 700, sf::Color(200, 200, 200)), userInteractionBox(10, 10, 480, 700, sf::Color(200, 200, 200)) {
     // Create a window with the title "SFML Window"

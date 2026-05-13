@@ -8,8 +8,8 @@
 #include <SFML/Graphics/RectangleShape.hpp>
 #include <unordered_map>
 #include "button.h"
-#include "UserInteractionMessages.h"
-#include "LabelBox.h"
+#include "user_interaction_messages.h"
+#include "label_box.h"
 #include "TextBox.h"
 
 

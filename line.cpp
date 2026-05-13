@@ -2,7 +2,7 @@
 // Created by dawud on 28/07/2025.
 //
 
-#include "Line.h"
+#include "line.h"
 #include <cmath>
 
 Line::Line(const sf::Vector2f& start, const sf::Vector2f& end, const sf::Color& color, float thickness)

@@ -2,9 +2,9 @@
 // Created by dawud on 27/07/2025.
 //
 
-#include "LabelBox.h"
+#include "label_box.h"
 
-#include "FontManager.h"
+#include "font_manager.h"
 
 LabelBox::LabelBox(std::string textString, float x, float y, float width, float height, const sf::Color &boxColor) {
     // Initialize the background rectangle
