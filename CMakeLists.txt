@@ -18,7 +18,7 @@ if(WIN32)
     link_directories(${SFML_LIBRARY_DIR})
 else()
     # Find the system-installed SFML
-    find_package(SFML 2.5 COMPONENTS graphics window system REQUIRED)
+    find_package(SFML 2.6 COMPONENTS graphics window system REQUIRED)
 endif()
 
 add_executable(VisualGraphSFML main.cpp
